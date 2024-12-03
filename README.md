@@ -7,14 +7,31 @@ This project predicts flight prices using machine learning. It uses the **Random
 - **Flight Price Prediction**: Predicts flight prices based on input features.
 - **Flask Web Interface**: Users can input flight details and receive predictions.
 
+## Data Description
+The dataset consists of the following columns:
+
+- **Airline**: Airline of the flight (e.g., Jet Airways, IndiGo, Air India).
+- **Date_of_Journey**: The date when the flight is scheduled to depart.
+- **Source**: The origin city of the flight (e.g., Delhi, Kolkata).
+- **Destination**: The destination city of the flight (e.g., Cochin, Banglore).
+- **Route**: The flight's route details.
+- **Dep_Time**: Departure time of the flight.
+- **Arrival_Time**: Arrival time of the flight.
+- **Duration**: Duration of the flight.
+- **Total_Stops**: Number of stops in the flight.
+- **Additional_Info**: Additional details about the flight (e.g., onboard meal, flight type).
+
+The dataset is used for training a machine learning model to predict the flight prices based on these features.
+
 ## Project Structure
-├── app.py                   # Flask app to serve predictions
+```
+├── app.py                    # Flask app to serve predictions
 ├── flight_rf.pkl             # Trained Random Forest model
 ├── data_train.csv            # Training data
 ├── data_test.csv             # Test data
 ├── requirements.txt          # Dependencies
 └── README.md                 # Project documentation
-
+```
 ## How to Use
 
 1. **Clone the repository**:
