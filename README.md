@@ -53,6 +53,3 @@ Install dependencies using:
 pip install -r requirements.txt
 ```
 
-## License
-This project is open-source under the MIT License.
-```
